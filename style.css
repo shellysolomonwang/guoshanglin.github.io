@@ -10,15 +10,26 @@ body {
 	background-color: #595959;
 	color: #ffffff;
 	list-style: none;
-	text-align: center;
+	text-align: right;
 	margin: 0;
 	padding: 20px 0 20px 0;
 	width: 100%;
 }
+.logo {
+	float: left;
+	font-family: 'Yellowtail', cursive;
+	font-size: 20px;
+	margin-top: -7px;
+}
+.logo > a {
+	float: left;
+	vertical-align:middle;
+	padding-left: 25px;
+	padding-right: 10px;
+}
 .nav > li {
 	display: inline-block;
 	padding: 0 25px 0 25px;
-	
 }
 .nav > li > a {
 	text-decoration: none;
