@@ -36,3 +36,11 @@ body {
 .nav > li > a:hover {
 	color: #c1c1c1;
 }
+.banner {
+	width: 100%;
+	display: block;
+}
+.banner > .banner-image {
+	width: 100%;
+	display: block;
+}
